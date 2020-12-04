@@ -4,11 +4,9 @@
         ViewData["Title"] = "Display";
     }
 
-    <h1>Total Students:</h1>  @ViewBag.nos
-    <p>
-        <a asp-action="Create">Create New</a>
-    </p>
-    <table class="table">
+    <h1 style="color:red;">Total Students:</h1> <h1>@ViewBag.nos</h1>
+   
+    <table class="table bg-success text-white">
         <thead>
             <tr>
                 <th>
